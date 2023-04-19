@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <html>
-<link rel="stylesheet" href="Style.css">
-<p class="Hello">
-    Hello! 
-</p>
+    <head><script>
+        $(function(){
+            $("#includeHtml").load("Navbar.html");
+        });
+    </script></head>
+  <link rel="stylesheet" href="Style.css" />
+  <div id="includeHtml"></div>
+  <p class="Hello">Hello!</p>
 
-<h1 class="Heading">I am Anupama Jha</h1>
-
+  <h1 class="Heading">I am Anupama Jha</h1>
 </html>
