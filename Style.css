@@ -17,11 +17,11 @@ header{
    justify-content: space-between;
   text-align: center;
    height:35px;
-   padding-bottom: 2rem;
+   
    margin-left: 75px;
    margin-right: 75px;
    
-  
+  align-items: center;
    
    
 }
@@ -35,7 +35,7 @@ margin: 12px;
 a.main-nav{
    color:rgb(87, 78, 78);
    margin:10px;
-   font-size: 24px;
+   font-size: 22px;
    text-decoration:none;
    font-weight:bold;
 }
@@ -85,6 +85,7 @@ display:flex;
    border-radius:30px;
    background-color:rgb(88, 39, 201);
    color:azure;
+   margin-bottom:10px;
 }
 .image{
    height:300px;
@@ -96,4 +97,8 @@ display:flex;
 .photo{
    padding:50px;
    margin-left:120px;
+}
+.home-icons{
+   
+   padding:5px;
 }
