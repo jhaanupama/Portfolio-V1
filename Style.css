@@ -1,104 +1,130 @@
-html{
-   
-   scroll-behavior: smooth }
+html {
+  background-color: white;
+
+  scroll-behavior: smooth;
+}
 body {
-   /*background-color: black;*/
-   font-style:arial;
-   
-   background-color: white;
+  font-style: arial;
+
+  background-color: rgb(247, 241, 241);
 }
-   
-.content{
-   margin-left: 75px;
-   margin-right: 75px;
+
+.content {
+  margin-left: 75px;
+  margin-right: 75px;
 }
-header{
-   display: flex;
-   justify-content: space-between;
+header {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
-   height:35px;
-   
-   margin-left: 75px;
-   margin-right: 75px;
-   
+  height: 35px;
+  background-color: white;
   align-items: center;
-   
-   
 }
-.main-nav{
-   display:flex;
-   align-items: center;
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+  margin-right: 75px;
 }
-.nav-link{
-margin: 12px;
+.nav-link {
+  margin: 12px;
 }
-a.main-nav{
-   color:rgb(87, 78, 78);
-   margin:10px;
-   font-size: 22px;
-   text-decoration:none;
-   font-weight:bold;
+a.main-nav {
+  color: rgb(87, 78, 78);
+  margin: 10px;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bold;
 }
-div.heading{
-   color:rgb(10, 10, 10);
-   font-size: 25px;
-   font-weight:bold;
+div.heading {
+  color: rgb(10, 10, 10);
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.main-nav a:hover {
+  color: rgb(88, 39, 201);
+  text-decoration: underline;
+}
+#About {
+  height: 600px;
+}
+main {
+  height: 600px;
+
+  display: flex;
+}
+.hello {
+  padding-top: 70px;
+  color: rgb(88, 39, 201);
+  font-size: 25px;
+  font-weight: bold;
+}
+.name {
+  color: rgb(88, 39, 201);
+}
+.intro {
+  color: rgb(10, 10, 10);
+  font-size: 50px;
+  font-weight: bold;
+}
+.Jha {
+  color: rgb(245, 184, 71);
+}
+.description {
+  font-size: 17px;
+  font-weight: bold;
+}
+.btn{
+  height: 50px;
+  width: 12rem;
+  font-size: 19px;
+  border-radius: 30px;
+  background-color: rgb(88, 39, 201);
+  color: azure;
+  margin-bottom: 10px;
+}
+.image {
+  height: 300px;
+  width: 300px;
+  border-radius: 140px;
+  border: 4px solid rgb(245, 184, 71);
+}
+.photo {
+  padding: 50px;
+  margin-left: 120px;
+}
+.home-icons {
+  padding: 5px;
+}
+h1 {
+  text-align: center;
+}
+h1 span {
+  color: rgb(166, 9, 172);
+}
+div#About {
+  display: flex;
+  justify-content: center;
   
-   
 }
-.main-nav a:hover{
-   color:rgb(88, 39, 201);
-   text-decoration: underline;
-}
-#About{
-   height:600px;
-}
-main{
-height:600px;
-background-color: rgb(247, 241, 241);
-display:flex;
-}
-.hello{
-   padding-top: 70px;
-   color:rgb(88, 39, 201);
-   font-size:25px;
-   font-weight: bold;
-}
-.name{
-   color:rgb(88, 39, 201);}
-.intro{
-   color:rgb(10, 10, 10);
-   font-size:50px;
-   font-weight:bold;
-}
-.Jha{
-   color:rgb(245, 184, 71)
-}
-.description{
-   font-size:17px;
-   font-weight:bold;
-}
-.btn-aboutme{
-   height:50px;
-   width: 12rem;
-   font-size:19px;
-   border-radius:30px;
-   background-color:rgb(88, 39, 201);
-   color:azure;
-   margin-bottom:10px;
-}
-.image{
-   height:300px;
-  width:300px;
-  border-radius:140px;
-  border:4px solid rgb(245, 184, 71);
+.info{
+   width:500px;
   
-}
-.photo{
-   padding:50px;
-   margin-left:120px;
-}
-.home-icons{
+   font-size: 18px;
+   margin-left: 60px;
+  
+   }
+.photo2{
+   height: 415px;
+   width: 250px; 
+   margin-left:60px;
+   border: 4px solid rgb(166, 9, 172);
+   border-radius: 30px;
    
-   padding:5px;
+}
+#About span{
+   color:blue;
 }
