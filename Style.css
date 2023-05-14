@@ -128,3 +128,50 @@ div#About {
 #About span{
    color:blue;
 }
+#Skills{
+   height:600px;
+   background-color: rgb(68, 68, 136);
+}
+h2{
+  text-align: center;
+  font-size:40px;
+  color:azure;
+}
+
+h2 span{
+  color: rgb(245, 184, 71);
+}
+.skills-icons{
+ 
+  height: 50px;
+}
+p.icons-description{
+ font-size: 25px;
+ color:aliceblue;
+}
+.containers-1{
+  display:flex;
+  background-color:rgb(31, 31, 75);
+  margin-left:45px;
+  margin-right: 45px;
+  padding: 20px;
+  margin-bottom: 0px;
+  justify-content: center;
+}
+.containers-2{
+  display:flex;
+  background-color:rgb(31, 31, 75);
+  margin-left:45px;
+  margin-right: 45px;
+  justify-content: center;
+}
+.container-blocks{
+  background-color: black;
+  width: 140px;
+  height:130px;
+  padding:10px;
+  border-radius:35px;
+  text-align: center;
+  margin :15px;
+}
+
