@@ -20,6 +20,7 @@ header {
   height: 35px;
   background-color: white;
   align-items: center;
+  
 }
 .main-nav {
   display: flex;
@@ -174,4 +175,42 @@ p.icons-description{
   text-align: center;
   margin :15px;
 }
+#Education{
+  height:400px;
+  
+  
+}
+h3{
+font-size:22px;
+color:rgb(59, 59, 172);
 
+}
+
+.education-container{
+  display:flex;
+  background-color: white;
+  margin:20px;
+  margin-left:190px;
+  height:140px;
+  width:910px;
+  border-radius:20px;
+  
+}
+.education-image{
+  height:120px;
+  width:210px;
+  padding:5px;
+  margin:5px;
+}
+.edu-Heading{
+  font-size:25px;
+  text-align: center;
+  font-weight: bold;
+}
+.edu-Heading span{
+  color: rgb(166, 9, 172);
+}
+.year{
+  color:rgb(37, 212, 66);
+  font-weight:bold;
+}
