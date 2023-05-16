@@ -39,7 +39,7 @@ a.main-nav {
 }
 div.heading {
   color: rgb(10, 10, 10);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   margin-left: 75px;
   margin-right: 75px;
@@ -49,7 +49,7 @@ div.heading {
   text-decoration: underline;
 }
 #About {
-  height: 600px;
+  height: 500px;
 }
 main {
   height: 600px;
@@ -77,7 +77,7 @@ main {
   font-size: 17px;
   font-weight: bold;
 }
-.btn{
+.btn {
   height: 50px;
   width: 12rem;
   font-size: 19px;
@@ -87,10 +87,10 @@ main {
   margin-bottom: 10px;
 }
 .image {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 140px;
-  border: 4px solid rgb(245, 184, 71);
+  border: 4px ;
 }
 .photo {
   padding: 50px;
@@ -108,70 +108,144 @@ h1 span {
 div#About {
   display: flex;
   justify-content: center;
-  
 }
-.info{
-   width:500px;
-  
-   font-size: 18px;
-   margin-left: 60px;
-  
-   }
-.photo2{
-   height: 415px;
-   width: 250px; 
-   margin-left:60px;
-   border: 4px solid rgb(166, 9, 172);
-   border-radius: 30px;
-   
+.info {
+  width: 500px;
+
+  font-size: 18px;
+  margin-left: 60px;
 }
-#About span{
-   color:blue;
+.photo2 {
+  height: 415px;
+  width: 250px;
+  margin-left: 60px;
+  border: 4px solid rgb(166, 9, 172);
+  border-radius: 30px;
 }
-#Skills{
-   height:600px;
-   background-color: rgb(68, 68, 136);
+#About span {
+  color: blue;
 }
-h2{
+#Skills {
+  height: 600px;
+  background-color: rgb(68, 68, 136);
+}
+h2 {
   text-align: center;
-  font-size:40px;
-  color:azure;
+  font-size: 40px;
+  color: azure;
 }
 
-h2 span{
+h2 span {
   color: rgb(245, 184, 71);
 }
-.skills-icons{
- 
+.skills-icons {
   height: 50px;
 }
-p.icons-description{
- font-size: 25px;
- color:aliceblue;
+p.icons-description {
+  font-size: 25px;
+  color: aliceblue;
 }
-.containers-1{
-  display:flex;
-  background-color:rgb(31, 31, 75);
-  margin-left:45px;
+.containers-1 {
+  display: flex;
+  background-color: rgb(31, 31, 75);
+  margin-left: 45px;
   margin-right: 45px;
   padding: 20px;
   margin-bottom: 0px;
   justify-content: center;
 }
-.containers-2{
-  display:flex;
-  background-color:rgb(31, 31, 75);
-  margin-left:45px;
+.containers-2 {
+  display: flex;
+  background-color: rgb(31, 31, 75);
+  margin-left: 45px;
   margin-right: 45px;
   justify-content: center;
 }
-.container-blocks{
+.container-blocks {
   background-color: black;
   width: 140px;
-  height:130px;
-  padding:10px;
-  border-radius:35px;
+  height: 130px;
+  padding: 10px;
+  border-radius: 35px;
   text-align: center;
-  margin :15px;
+  margin: 15px;
+}
+#Education {
+  height: 400px;
+}
+h3 {
+  font-size: 22px;
+  color: rgb(59, 59, 172);
 }
 
+.education-container {
+  display: flex;
+  background-color: white;
+  margin: 20px;
+  margin-left: 190px;
+  height: 140px;
+  width: 910px;
+  border-radius: 20px;
+}
+.education-image {
+  height: 120px;
+  width: 210px;
+  padding: 5px;
+  margin: 5px;
+}
+.edu-Heading {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.edu-Heading span {
+  color: rgb(166, 9, 172);
+}
+.year {
+  color: rgb(37, 212, 66);
+  font-weight: bold;
+}
+#Projects{
+  height:900px;
+  background-color: rgb(24, 24, 51);
+  padding:5px;
+}
+.project-heading{
+font-size:38px;
+text-align:center;
+color:white;
+font-weight:bold;
+}
+.project-image{
+  height:260px;
+  width:340px;
+}
+.project-content{
+  font-size:25px;
+  font-weight:bold;
+
+  background-color: yellow;
+  padding:0px;
+  margin:0px;
+  width:340px;
+  text-align:center;
+}
+
+div.projects{
+  padding:15px;
+  border-radius:10px;
+ align-items: center;
+ 
+}
+.Projects-container{
+display: flex;
+justify-content: center;
+
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.project-content a:hover{
+  color:red;
+}
