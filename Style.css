@@ -4,12 +4,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-style: arial;
-
+  
+  font-family: "Poppins", sans-serif;
   background-color: rgb(247, 241, 241);
 }
 
 .content {
+ margin-top: 40px;
   margin-left: 75px;
   margin-right: 75px;
 }
@@ -18,7 +19,7 @@ header {
   justify-content: space-between;
   text-align: center;
   height: 35px;
-  background-color: white;
+  background-color:white;
   align-items: center;
 }
 .main-nav {
@@ -31,15 +32,15 @@ header {
   margin: 12px;
 }
 a.main-nav {
-  color: rgb(87, 78, 78);
+  
   margin: 10px;
   font-size: 22px;
   text-decoration: none;
   font-weight: bold;
 }
 div.heading {
-  color: rgb(10, 10, 10);
-  font-size: 30px;
+  
+  font-size: 23px;
   font-weight: bold;
   margin-left: 75px;
   margin-right: 75px;
@@ -57,25 +58,25 @@ main {
   display: flex;
 }
 .hello {
-  padding-top: 70px;
-  color: rgb(88, 39, 201);
-  font-size: 25px;
+  
+  color: rgb(32, 32, 75);
+  font-size: 40px;
   font-weight: bold;
 }
-.name {
-  color: rgb(88, 39, 201);
-}
+
 .intro {
-  color: rgb(10, 10, 10);
+  color: rgb(32, 32, 75);
   font-size: 50px;
   font-weight: bold;
+  
 }
 .Jha {
   color: rgb(245, 184, 71);
 }
 .description {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: bold;
+  
 }
 .btn {
   height: 50px;
@@ -98,6 +99,7 @@ main {
 }
 .home-icons {
   padding: 5px;
+  
 }
 h1 {
   text-align: center;
@@ -126,13 +128,17 @@ div#About {
   color: blue;
 }
 #Skills {
-  height: 600px;
+  height: 520px;
   background-color: rgb(68, 68, 136);
 }
 h2 {
   text-align: center;
+  justify-items: center;
   font-size: 40px;
   color: azure;
+  padding:12px;
+  margin:0px;
+  
 }
 
 h2 span {
@@ -148,17 +154,17 @@ p.icons-description {
 .containers-1 {
   display: flex;
   background-color: rgb(31, 31, 75);
-  margin-left: 45px;
-  margin-right: 45px;
-  padding: 20px;
+ margin-left: 70px;
+ margin-right: 70px;
+  
   margin-bottom: 0px;
   justify-content: center;
 }
 .containers-2 {
   display: flex;
   background-color: rgb(31, 31, 75);
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 70px;
+ margin-right: 70px;
   justify-content: center;
 }
 .container-blocks {
@@ -172,6 +178,7 @@ p.icons-description {
 }
 #Education {
   height: 400px;
+ 
 }
 h3 {
   font-size: 22px;
@@ -206,7 +213,7 @@ h3 {
   font-weight: bold;
 }
 #Projects{
-  height:900px;
+  height:800px;
   background-color: rgb(24, 24, 51);
   padding:5px;
 }
@@ -221,7 +228,7 @@ font-weight:bold;
   width:340px;
 }
 .project-content{
-  font-size:25px;
+  font-size:22px;
   font-weight:bold;
 
   background-color: yellow;
@@ -248,4 +255,42 @@ a{
 }
 .project-content a:hover{
   color:red;
+}
+#Contact{
+  height:700px;
+  background-color: rgb(206, 229, 250);
+}
+.project-heading span{
+  color:rgb(245, 184, 71);
+}
+.contact-container{
+display:flex;
+background-color: azure;
+margin-right: 60px;
+margin-left:60px;
+
+}
+.contact-image{
+height:550px;
+margin:10px;
+}
+.contact-heading{
+  font-size:32px;
+  text-align: center;
+  font-weight: bold;
+margin-bottom: 10px;
+margin-top:8px;
+padding: 5px;
+color:rgb(48, 45, 45);
+  
+
+}
+.contact-heading span{
+  color:rgb(156, 1, 156);}
+.contact-content{
+  padding:20px;
+  font-size:20px;
+}
+.contact-content span{
+  color:rgb(156, 1, 156);
 }
